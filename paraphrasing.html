@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paraphrasing Tool</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script async src="main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title">
+      <h1>Paraphrasing Tool</h1>
+    </div>
+
+    <div class="selection">
+      <p>Standard Mode</p>
+      <p>Fluent Mode</p>
+      <p>Creative Mode</p>
+    </div>
+
+    <div class="mode-note">
+      <h6>When rephrasing, use the most cautious mode possible. The rewritten sentences will be pretty similar to the originals.</h6>
+    </div>
+
+    <main>
+      <div class="legend">
+        <p>Enter the text you want to paraphrase</p>
+        <p>Paraphrased text</p>
+      </div>
+      <div class="input-wrapper">
+        <div class="input">
+          <textarea  name="input" class="inputBox" cols="30" rows="10" placeholder="Enter the text you want to paraphrase. You can select any of the modes above for different levels of paraphrasing. After writing or pasting your text, use the Paraphrase button below."></textarea>
+        </div>
+
+        <div class="output">
+          <textarea disabled name="output" id="output" cols="30" rows="10" placeholder="You will get the resulting text here after the paraphrasing tool has finished rephrasing."></textarea>
+        </div>
+      </div>
+
+      <div class="action">
+        <p class="counter"><span class="count">0</span>/500 Characters</p>
+        <button class="submit">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 9H17M10 13H17M7 9H7.01M7 13H7.01M21 20L17.6757 18.3378C17.4237 18.2118 17.2977 18.1488 17.1656 18.1044C17.0484 18.065 16.9277 18.0365 16.8052 18.0193C16.6672 18 16.5263 18 16.2446 18H6.2C5.07989 18 4.51984 18 4.09202 17.782C3.71569 17.5903 3.40973 17.2843 3.21799 16.908C3 16.4802 3 15.9201 3 14.8V7.2C3 6.07989 3 5.51984 3.21799 5.09202C3.40973 4.71569 3.71569 4.40973 4.09202 4.21799C4.51984 4 5.0799 4 6.2 4H17.8C18.9201 4 19.4802 4 19.908 4.21799C20.2843 4.40973 20.5903 4.71569 20.782 5.09202C21 5.51984 21 6.0799 21 7.2V20Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Paraphrase
+        </button>
+        <button class="clear">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 6.98996C8.81444 4.87965 15.1856 4.87965 21 6.98996" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M8.00977 5.71997C8.00977 4.6591 8.43119 3.64175 9.18134 2.8916C9.93148 2.14146 10.9489 1.71997 12.0098 1.71997C13.0706 1.71997 14.0881 2.14146 14.8382 2.8916C15.5883 3.64175 16.0098 4.6591 16.0098 5.71997" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 13V18" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M19 9.98999L18.33 17.99C18.2225 19.071 17.7225 20.0751 16.9246 20.8123C16.1266 21.5494 15.0861 21.9684 14 21.99H10C8.91389 21.9684 7.87336 21.5494 7.07541 20.8123C6.27745 20.0751 5.77745 19.071 5.67001 17.99L5 9.98999" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Clear All
+        </button>
+      </div>
+    </main>
+
+    <div class="features">
+      <div class="features-titles">
+        <h6>BEST ARTICLE REWRITER & PARAPHRASING TOOL</h6>
+        <h3>For all writing tasks at hand, use our completely free paraphrasing tool</h3>
+        <p>When trying to avoid plagiarism while writing articles, essays, or even emails, using our Paraphrasing tool will help you rewrite the sentences that are identical in meaning to the original text.</p>
+      </div>
+    </div>
+
+    <div class="all-features">
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="9" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14.5 9.08333L14.3563 8.96356C13.9968 8.66403 13.5438 8.5 13.0759 8.5H10.75C9.7835 8.5 9 9.2835 9 10.25V10.25C9 11.2165 9.7835 12 10.75 12H13.25C14.2165 12 15 12.7835 15 13.75V13.75C15 14.7165 14.2165 15.5 13.25 15.5H10.412C9.8913 15.5 9.39114 15.2969 9.01782 14.934L9 14.9167" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 8L12 7" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 17V16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>Free to use</h1>
+          <p>Our article rewriter is entirely free of cost to use. We don't need your credit card or any payment information to help you generate the rephrased article or essay.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.584 6C15.8124 4.2341 14.0503 3 12 3C9.23858 3 7 5.23858 7 8V10.0288M12 14.5V16.5M7 10.0288C7.47142 10 8.05259 10 8.8 10H15.2C16.8802 10 17.7202 10 18.362 10.327C18.9265 10.6146 19.3854 11.0735 19.673 11.638C20 12.2798 20 13.1198 20 14.8V16.2C20 17.8802 20 18.7202 19.673 19.362C19.3854 19.9265 18.9265 20.3854 18.362 20.673C17.7202 21 16.8802 21 15.2 21H8.8C7.11984 21 6.27976 21 5.63803 20.673C5.07354 20.3854 4.6146 19.9265 4.32698 19.362C4 18.7202 4 17.8802 4 16.2V14.8C4 13.1198 4 12.2798 4.32698 11.638C4.6146 11.0735 5.07354 10.6146 5.63803 10.327C5.99429 10.1455 6.41168 10.0647 7 10.0288Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>No signup required</h1>
+          <p>Our software does not require any signup, login, or registration. Just provide the text you need to be rewritten and click the Paraphrase button. Nothing else needed.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg fill="#000000" viewBox="-1 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg">
+            <path d="M16.417 9.57a7.917 7.917 0 1 1-8.144-7.908 1.758 1.758 0 0 1 .451 0 7.913 7.913 0 0 1 7.693 7.907zM5.85 15.838q.254.107.515.193a11.772 11.772 0 0 1-1.572-5.92h-3.08a6.816 6.816 0 0 0 4.137 5.727zM2.226 6.922a6.727 6.727 0 0 0-.511 2.082h3.078a11.83 11.83 0 0 1 1.55-5.89q-.249.083-.493.186a6.834 6.834 0 0 0-3.624 3.622zm8.87 2.082a14.405 14.405 0 0 0-.261-2.31 9.847 9.847 0 0 0-.713-2.26c-.447-.952-1.009-1.573-1.497-1.667a8.468 8.468 0 0 0-.253 0c-.488.094-1.05.715-1.497 1.668a9.847 9.847 0 0 0-.712 2.26 14.404 14.404 0 0 0-.261 2.309zm-.974 5.676a9.844 9.844 0 0 0 .713-2.26 14.413 14.413 0 0 0 .26-2.309H5.903a14.412 14.412 0 0 0 .261 2.31 9.844 9.844 0 0 0 .712 2.259c.487 1.036 1.109 1.68 1.624 1.68s1.137-.644 1.623-1.68zm4.652-2.462a6.737 6.737 0 0 0 .513-2.107h-3.082a11.77 11.77 0 0 1-1.572 5.922q.261-.086.517-.194a6.834 6.834 0 0 0 3.624-3.621zM11.15 3.3a6.82 6.82 0 0 0-.496-.187 11.828 11.828 0 0 1 1.55 5.89h3.081A6.815 6.815 0 0 0 11.15 3.3z"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>How do you use a paraphrasing tool?</h1>
+          <p>Our article rewriter is one of the easiest software on the internet for rephrasing phrases or articles. To use our tool, you need to either write or paste your input article into the first box.
+            After that, click the Paraphrase button. Once you submit the information, our AI will start analyzing and rewriting the article while keeping the original intent identical.
+            When the AI has finished processing, you'll be able to see the results in the second box. Also, you can copy results by clicking on the Copy Result button.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.54004 11.77L12 14L19 10.5M7.54004 11.77V17.77M7.54004 11.77L12 9.54004M7.54004 11.77L5 10.5M7.54004 17.77V21M7.54004 17.77L12 20L19 16.5V10.5M7.54004 17.77L5 16.5V10.5M19 10.5L22 9L12 4L2 9L5 10.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="content">
+          <h1>Which is the best paraphrasing tool?</h1>
+          <p>Which is the best paraphrasing tool?
+            Our tool is amongst the best online software out there for paraphrasing and article & essay rewriting.
+            You can find lots of different paraphrasing tools online. Almost all of them are either very poor in the level of quality and accuracy of the sentences they generate. Either ask for money or need signup before continuing. They are ad-ridden most of the time and do not have a good usability experience while using.
+            Most of these online tools rely on simple text synonym replacement, hence their low quality. They don't understand the meaning behind the sentences entirely.
+            On the other hand, our software uses advanced artificial intelligence models that excel at paraphrasing. Our AI models have spent countless hours analyzing English phrases. These models understand the semantics behind the sentences, due to which they can perform a much better job of rewriting.
+            You can also learn more about another paraphrasing tool called Quillbot.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.65079 5.24076C4.35428 4.9866 3.93694 4.92832 3.58214 5.0915C3.22734 5.25469 3 5.60948 3 6.00001V18C3 18.3905 3.22734 18.7453 3.58214 18.9085C3.93694 19.0717 4.35428 19.0134 4.65079 18.7593L11.6508 12.7593C11.8724 12.5693 12 12.2919 12 12C12 11.7081 11.8724 11.4307 11.6508 11.2408L4.65079 5.24076ZM9.46341 12L5 15.8258V8.17423L9.46341 12ZM14.6508 5.24076C14.3543 4.9866 13.9369 4.92832 13.5821 5.0915C13.2273 5.25469 13 5.60948 13 6.00001V18C13 18.3905 13.2273 18.7453 13.5821 18.9085C13.9369 19.0717 14.3543 19.0134 14.6508 18.7593L21.6508 12.7593C21.8724 12.5693 22 12.2919 22 12C22 11.7081 21.8724 11.4307 21.6508 11.2408L14.6508 5.24076ZM19.4634 12L15 15.8258V8.17423L19.4634 12Z" fill="#000000"/>
+            </svg>
+        </div>
+        <div class="content">
+          <h1>How do you paraphrase quickly?</h1>
+          <p>The easiest way to paraphrase is by using our software.
+            But, if you want to do it yourself, one neat trick is to internalize the meaning of the sentence you are trying to paraphrase. Then, try to convey the same thought in your own words.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="media-player" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="loop" fill="#000000">
+                    <path d="M6.8762659,15.1237341 C7.93014755,16.8486822 9.83062143,18 12,18 C14.6124377,18 16.8349158,16.3303847 17.6585886,14 L19.747965,14 C18.8598794,17.4504544 15.7276789,20 12,20 C9.28005374,20 6.87714422,18.6426044 5.43172915,16.5682708 L3,19 L3,13 L9,13 L6.8762659,15.1237341 Z M17.1245693,8.87543068 C16.0703077,7.15094618 14.1695981,6 12,6 C9.3868762,6 7.16381436,7.66961525 6.33992521,10 L4.25,10 C5.13831884,6.54954557 8.27134208,4 12,4 C14.7202162,4 17.123416,5.35695218 18.5692874,7.43071264 L21,5 L21,11 L15,11 L17.1245693,8.87543068 Z" id="Shape">
+                    </path>
+                </g>
+            </g>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>What is an article spinner?</h1>
+          <p>Article spinners are low-quality article rewriting software tools that generate new sentences from existing by replacing the words with their synonyms. The output text generated usually isn't that great and looks very spammy.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 15H12.01M12 12V9M4.98207 19H19.0179C20.5615 19 21.5233 17.3256 20.7455 15.9923L13.7276 3.96153C12.9558 2.63852 11.0442 2.63852 10.2724 3.96153L3.25452 15.9923C2.47675 17.3256 3.43849 19 4.98207 19Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>Is the paraphrasing tool plagiarizing?</h1>
+          <p>One of the most common causes of plagiarism is paraphrasing and not giving any citations.
+            So, when you rephrase the article and keep the key points as is. One way to avoid plagiarism would be to cite the sources appropriately.
+            By following the best practices set by your organization, you should be able to avoid plagiarism.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.5 3c-7.456 0-13.5 6.044-13.5 13.5s6.044 13.5 13.5 13.5 13.5-6.044 13.5-13.5-6.044-13.5-13.5-13.5zM15.5 27c-5.799 0-10.5-4.701-10.5-10.5s4.701-10.5 10.5-10.5 10.5 4.701 10.5 10.5-4.701 10.5-10.5 10.5zM15.5 10c-0.828 0-1.5 0.671-1.5 1.5v5.062c0 0.828 0.672 1.5 1.5 1.5s1.5-0.672 1.5-1.5v-5.062c0-0.829-0.672-1.5-1.5-1.5zM15.5 20c-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5 1.5-0.672 1.5-1.5-0.672-1.5-1.5-1.5z"></path>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>How can you paraphrase without plagiarizing?</h1>
+          <p>If you copy the information from a source, a good rule of thumb is to cite that source. By doing that, you are not trying to take credit for someone else's original work.
+            If the person or organization receiving the article or essay has provided the criteria regarding paraphrasing. It will be a good idea to follow that.
+            You can also follow our guide to effectively paraphrase sources.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 15H12.01M12 12V9M4.98207 19H19.0179C20.5615 19 21.5233 17.3256 20.7455 15.9923L13.7276 3.96153C12.9558 2.63852 11.0442 2.63852 10.2724 3.96153L3.25452 15.9923C2.47675 17.3256 3.43849 19 4.98207 19Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h1>How to use paraphrasing tool to write thesis</h1>
+          <p>If you are writing a thesis and are using a paraphrasing tool for assistance. Follow our guide with tips to avoid common mistakes.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
