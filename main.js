@@ -17,9 +17,9 @@ paraphrase.addEventListener('click', async function() {
         'X-RapidAPI-Host': 'paraphrasing-and-rewriter-api.p.rapidapi.com'
       },
       processData: false,
-      data: JSON.stringify({ // Use JSON.stringify to convert the object to a string
+      data: JSON.stringify({
         "from": "en",
-        "text": inputtedData // Replace the hardcoded text with the inputtedData variable
+        "text": inputtedData
     })
     };
     
